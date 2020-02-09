@@ -31,7 +31,8 @@ describe('helper', () => {
 
   describe('check array', () => {
     it('check array correctly', () => {
-      expect(returnArr()).arrayContaining();
+      expect(returnArr()).toContain(1);
+      expect(new Set(returnArr())).toContain(2);
     });
   });
 });

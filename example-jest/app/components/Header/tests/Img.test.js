@@ -10,6 +10,7 @@ describe('<Img />', () => {
     const renderedComponent = renderer
       .create(<Img src="http://example.com/test.jpg" alt="test" />)
       .toJSON();
+    console.log(renderedComponent);
     expect(renderedComponent).toMatchSnapshot();
   });
 
