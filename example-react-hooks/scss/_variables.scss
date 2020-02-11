@@ -1,0 +1,21 @@
+$theme-colors: (
+  primary: #22c722,
+  light-gray: #f0f0f0
+);
+$baseFontSize: 16;
+
+@function rem($pixels, $context: $baseFontSize) {
+  @if (unitless($pixels)) {
+    $pixels: $pixels * 1px;
+  }
+
+  @if (unitless($context)) {
+    $context: $context * 1px;
+  }
+
+  @return $pixels / $context * 1rem;
+}
+
+body {
+  font-family: "Roboto", serif !important;
+}
