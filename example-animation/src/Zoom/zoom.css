@@ -1,0 +1,24 @@
+.zoom figure{
+    width: 600px;
+    background-repeat: no-repeat;
+    cursor: zoom-in;
+  }
+  
+  .zoom figure:hover img {
+    opacity: 0;
+    cursor: zoom-in;
+  }
+  
+  .zoom img {
+    display: block;
+    width: 100%;
+  }
+  
+  #root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  
