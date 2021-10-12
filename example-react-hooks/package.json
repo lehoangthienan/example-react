@@ -19,7 +19,7 @@
     "express": "^4.16.4",
     "file-loader": "^3.0.1",
     "immutable": "^4.0.0-rc.12",
-    "jquery": "3.4.0",
+    "jquery": "3.5.0",
     "lodash": "^4.17.11",
     "moment": "^2.24.0",
     "next": "^11.1.0",
