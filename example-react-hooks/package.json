@@ -21,7 +21,7 @@
     "immutable": "^4.0.0-rc.12",
     "jquery": "3.4.0",
     "lodash": "^4.17.21",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "next": "^11.1.1",
     "next-redux-saga": "3.0.0-beta.1",
     "next-redux-wrapper": "^3.0.0-alpha.1",
